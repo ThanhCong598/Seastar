@@ -202,6 +202,13 @@ int main(int ac, char** av) {
         bool compress = false;
 
 
+//        storage->invoke_on_all(&DataBase::CreateTable,to_sstring("table1.1"));
+//        storage->invoke_on_all(&DataBase::InsertByKey,to_sstring("table1.1"),to_sstring("key1.1"),to_sstring("value1.1"));
+//        storage->local_shared()->Select(to_sstring("table1.1"),to_sstring("key1.1")).then([](DataBase::VALUE value){
+//            std::cout<<value.c_str()<<std::endl;
+//        });
+
+
 
         // register handler
 
